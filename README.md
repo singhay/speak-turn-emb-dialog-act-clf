@@ -27,7 +27,7 @@ The hyperparameters can be set in the three scripts and should be fairly underst
       4. act. the dialogue act label.
       5. topic. the topic label. if not available, just put all zeros.
 3. Create a script as run_{dataset_name}.py. You can reuse most of the parameter settings in run_swda/mrda/dyda.py. If the conversations are very long (have a lot of utterances), consider slicing it into smaller chunks by specifying <em>chunk_size</em> to a non-zero value. 
-   1. Set <em>copurs</em> to your {dataset_name}. 
+   1. Set <em>corpus</em> to your {dataset_name}. 
    2. Set <em>nclass</em> to the number of dialogue act classes in your dataset.
 4. Run the script
 ```angular2html
